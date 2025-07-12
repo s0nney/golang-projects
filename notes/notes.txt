@@ -1,0 +1,35 @@
+CLI Todo App
+- Command-line app to add, list, and mark todo items as done. Stores tasks in a local file.
+
+JSON REST API Server
+- RESTful API to manage a resource (e.g., books or users) using GET, POST, PUT, DELETE endpoints.
+
+Markdown to HTML Converter
+- Reads .md files and outputs equivalent HTML files using a markdown parser.
+
+In-Memory Key-Value Store
+- Basic map-based store with commands to set/get/delete keys. Add concurrency safety with mutex.
+
+Web Crawler (with Goroutines)
+- Concurrently fetch and parse links from web pages. Use channels to limit goroutines.
+
+Golang REPL for Simple Arithmetic
+- A read-eval-print loop supporting basic math expressions (+, -, *, /).
+
+TCP Chat Server
+- Simple chat server where multiple clients can join and broadcast messages.
+
+Simple Container (Docker-lite)
+- Uses Linux namespaces and cgroups to isolate a process. Basic containerization demo.
+
+Ping/Traceroute Tool
+- Sends ICMP packets to test host reachability and route tracing.
+
+Static Site Generator
+- Converts markdown files into HTML using templates. Generates full static websites.
+
+Automated Screenshot Taker
+- Wraps a headless browser (like Chrome) to take screenshots of URLs passed via CLI.
+
+Git Commit Analyzer CLI
+- Parses git logs to show commit stats (top authors, frequent keywords, etc).
